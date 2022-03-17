@@ -1,0 +1,39 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Edmodo Cloud",
+    "version": "1.1.2",
+    "description": "Edmodo Cloud",
+    "manifest_version": 2,
+	"icons": {
+		"16": "images/icon-16.png",
+		"128": "images/icon-128.png"
+	},
+    "permissions": [
+		"http://*/*",
+		"https://*/*",
+		"webRequest"
+    ],
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://new.edmodo.com/*"],
+            "js": [
+                "js/plugins/jquery-3.6.0.min.js",
+                "js/plugins/jquery-cookie.min.js",
+                "js/constants.js",
+                "js/theme.js",
+                "js/edmodo.js",
+                "js/main.js"
+            ],
+            "persistent": true,
+            "run_at": "document_start"
+        }
+    ],
+    "devtools_page": "devtools.html" 
+  }
