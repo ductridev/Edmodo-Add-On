@@ -1,9 +1,9 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+"update_url": "https://github.com/ductridev/Edmodo-Add-On/releases/tag/Release",
 
-    "name": "Edmodo Cloud",
+    "name": "Edmodo Add On",
     "version": "1.1.2",
-    "description": "Edmodo Cloud",
+    "description": "Edmodo Add On - made by ductridev",
     "manifest_version": 2,
 	"icons": {
 		"16": "images/icon-16.png",
