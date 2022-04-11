@@ -2,7 +2,7 @@
 "update_url": "https://github.com/ductridev/Edmodo-Add-On/releases/tag/Release",
 
     "name": "Edmodo Add On",
-    "version": "1.1.2",
+    "version": "0.1.1",
     "description": "Edmodo Add On - made by ductridev",
     "manifest_version": 2,
 	"icons": {
